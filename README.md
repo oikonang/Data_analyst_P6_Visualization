@@ -14,13 +14,27 @@ A fourth variable "Pclass" which represents the socio-economic status of the ade
 I also modified the tooltip provided by dimple to show the percentage of different age groups people surviving in each category. I included a title and some text at the right bottom of the graph to give an overview to the users about what the graph represents.
 
 After been provided with some feedback from frinds and coleagues concerning the graph, I made some changes. I eliminated null values, I gave real names to the age groups, I changed the legends of the plot in order for the viewer to have a better understanding of the context without spending a lot of time, I used aggragate node grouped by two consecutive variables in order to i.e. subgroup the survived males of 19-40 years-old, I tuned the D3 attributes to have the best possible visualization, and I eliminated the grid lines to make good use of white spaces.
+In addition after the first Udacity review, I fixed some code indentation styling issues, I fixed a miscalculated variable (survival rate) on the data and lastly I fixed the bar ordering according to labels.
 
 ## Feedback
 Andreas Grivas: I spent a lot of time to understand the story beneath this visualization. Try to change the legends and titles to for an more accurate first impresion.
 
 Christina Ikonomaki: I suppose that age group 1, 2, 3 and 4 are ascending groups of 20 years each. Put a legend on these.
 
-Dimitris Mantrokas: Try to eliminate any possible null values and make use of the minimal style of white spaces.  
+Dimitris Mantrokas: Try to eliminate any possible null values and make use of the minimal style of white spaces. 
+
+Udacity 1st Review:  
+What do you notice in the visualization?
+Sort age groups in the visualization same way as it is in the legend. Currently there are children and adults groups switched.
+
+What questions do you have about the data?
+The visualization centers on specific finding in the data, however, I have to mark this section as requiring changes because there is some error in the data.
+
+What do you think is the main takeaway from this visualization?
+Nice animation and tooltips.
+
+The code uses formatting techniques in a consistent and effective manner to improve code readability?
+I marked several places where improvement needed in code review. Consider reformatting according to code styling recommendations.
 
 ## Resaurces
 https://www.kaggle.com/c/titanic
