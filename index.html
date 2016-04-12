@@ -139,6 +139,12 @@
         bar.setBounds(100, 120, 850, 400);
           
         var x = bar.addCategoryAxis("x", ["sex","age_group"]);
+        x.addOrderRule("sex");
+        x.addGroupOrderRule(["Children [0-18]", 
+          "Adults [19-40]", 
+          "Middle-Aged [41-60]", 
+          "Seniors [61+]"
+        ]);
         x.fontSize = "13px";
         x.fontFamily = "Arial";
         var y = bar.addMeasureAxis("y","survival_rate");
