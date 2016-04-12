@@ -36,7 +36,7 @@ Nice animation and tooltips.
 The code uses formatting techniques in a consistent and effective manner to improve code readability?
 I marked several places where improvement needed in code review. Consider reformatting according to code styling recommendations.
 
-## Resaurces
+## Resources
 https://www.kaggle.com/c/titanic
 http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
 http://www.w3schools.com/css/default.asp
