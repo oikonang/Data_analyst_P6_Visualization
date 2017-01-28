@@ -23,7 +23,7 @@
     <div id="chartContainer"></div>
     <script type="text/javascript">
       var svg = dimple.newSvg("#chartContainer", 1250, 580);
-      d3.csv("titanic_3.csv", function (data) {
+      d3.csv("DATA/titanic_3.csv", function (data) {
       
         // Create a notification chart at the right bottom of the chart to give an overview of data
         var notification = new dimple.chart(svg, data);
